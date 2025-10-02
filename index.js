@@ -9,7 +9,7 @@ import jwt from "jsonwebtoken";
 import cors from "cors";
 import fetch from "node-fetch";
 
-const FRONTEND_URL="http://localhost:5173/"; // Update this to your frontend URL
+const FRONTEND_URL="https://codecollab-frontend-2tai.onrender.com"; // Update this to your frontend URL
 dotenv.config();
 
 const app = express();
